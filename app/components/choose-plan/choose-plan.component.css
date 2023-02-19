@@ -1,0 +1,102 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.content{
+    align-items: center;
+}
+.toolbar {
+
+position: absolute;
+width: 100%;
+height: 24px;
+top: 46px;
+
+/* Typography/H1 Page */
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+  }
+  .content {
+    display: flex;
+    padding: 0 0 0 0 ;
+    width: 100%;
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #titleBox{
+
+    position: absolute;
+    height: 179px;
+    left: 0px;
+    right: 0px;
+    top: 75px;
+    background: #E09167;
+    text-align: center;
+    width: 100%;
+    display: inline-flexbox;
+  }
+  #back_arrow{
+    height: 15.18px;
+    width: 15.58px;
+    border-radius: 0px;
+    left: 20px;
+    top: 15%;
+    bottom: 18.36%;
+    content: "\2190";
+    color: white;
+    position: absolute;
+  }
+  #title{
+    width: 100%;
+  }
+  .journeyTitle{
+    position: absolute;
+    font-size: 26.5625px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  #second_line{
+    justify-content: center;
+    width: 100%;
+    height: 105px;
+    font-weight: 400;
+  }
+  #first_line{
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+    font-weight: 320;
+  }
+
+  .planBox{
+    box-sizing: border-box;
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 20px;
+    right: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #E09167;
+    border-radius: 5px;
+  }
+  #basicPlan{
+    top: 160px;
+  }
+  #premiumPlan{
+    top: 550px;
+    margin-bottom: 20px;
+  }
+
+
+

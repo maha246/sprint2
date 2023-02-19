@@ -1,0 +1,98 @@
+#container{
+    margin-left: 16px;
+    margin-top: 7px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.price{
+    display: inline;
+    float: left;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.duration{
+    display: inline;
+    color: #7B7B7B;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.title{
+    margin-bottom: 5px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.priceDuration{
+    display: block;
+    margin-bottom: 16px;
+}
+.subtitle{
+    margin-top: 16px;
+    margin-bottom: 4px;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+li{
+    font-weight: 400;
+    font-size: 13px;
+    color: #1E3023;
+    line-height: 16px;
+    display: flex;
+align-items: flex-start;
+padding: 4px;
+gap: 8px;
+}
+
+ul{
+    padding: 0;
+    margin-left: 16px;
+    list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+;}
+ul li::before {
+    display: flex;
+    content: "\2022";
+    color:#E09167;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.5em;
+}
+#selectPlan{
+    float: right;
+    background: #E09167;
+    border-radius: 14.7761px ;
+    border: 2px solid #E09167;
+ width: 122px;
+ height: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 9.85075px;
+    line-height: 12px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 8px;
+margin-top: 10px;
+margin-right: 0px;
+
+
+
+}

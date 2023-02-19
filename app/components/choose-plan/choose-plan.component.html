@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="toolbar" role="banner">
+        Your Plan
+      </div>
+    <div class="content" role="main">
+        <div id="titleBox">
+            <div id="back_arrow">&#8592;</div>
+            <div id="title">
+                <div class="journeyTitle" id="first_line">
+                        Your Journey To
+                </div>
+                <div class="journeyTitle" id="second_line">
+                        Health Starts Here!
+                </div>
+            </div>
+        </div>
+        <div class="planBox" id="basicPlan">
+            <app-plan 
+            [includes]="basic_includes" [benefits]="basic_benefits" [planTitle]="basic_title" 
+            [price]="basic_price" [duration]="basic_duaration"></app-plan>
+        </div>
+        <div class="planBox" id="premiumPlan">
+            <app-plan 
+            [includes]="pre_includes" [benefits]="pre_benefits" [planTitle]="pre_title" 
+            [price]="pre_price" [duration]="pre_duaration"></app-plan>
+        </div>
+    </div>
+</div>

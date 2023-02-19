@@ -1,0 +1,23 @@
+<div id="container">
+    <div class="title">The {{planTitle}} Plan:</div>
+    <div class="priceDuration">
+        <div class="price">{{price}} /</div>
+        <div class="duration">{{duration}}</div>
+    </div>
+    <div class="subtitle">The {{planTitle}} Package Include:</div>
+    <ul>
+        <li *ngFor="let x of includes">{{x}}</li>
+    </ul>
+
+    <div class="subtitle">Benefits:</div>
+    <ul>
+        <li *ngFor="let y of benefits">{{y}}</li>
+    </ul>
+    <button id="selectPlan"> Select Plan </button>
+
+</div>
+
+<!--
+    
+-->
+
